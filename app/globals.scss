@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+// SCROLLBAR
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+// FONTS
+
+//kanit
+@font-face {
+  font-family: 'kanit';
+  src: url('/assets/fonts/Kanit/Kanit-light.ttf');
+}
+
+.kanit {
+  font-family: 'kanit';
+}
+
+//josefin
+@font-face {
+  font-family: 'josefin';
+  src: url('/assets/fonts/Josefin_Sans/static/JosefinSans-Medium.ttf');
+}
+
+.josefin {
+  font-family: 'josefin';
+}
+
+//Redressed
+@font-face {
+  font-family: 'redressed';
+  src: url('/assets/fonts/Redressed/Redressed-Regular.ttf');
+}
+
+.redressed {
+  font-family: 'redressed';
+}
+
+//Annie_Use_Your_Telescope
+@font-face {
+  font-family: 'Annie_Use_Your_Telescope';
+  src: url('/assets/fonts/Annie_Use_Your_Telescope/AnnieUseYourTelescope-Regular.ttf');
+}
+
+.annie {
+  font-family: 'Annie_Use_Your_Telescope';
+}
+
+//Handlee
+@font-face {
+  font-family: 'Handlee';
+  src: url('/assets/fonts/Handlee/Handlee-Regular.ttf');
+}
+
+.handlee {
+  font-family: 'Handlee';
+}
+
+//Original_Surfer
+@font-face {
+  font-family: 'Original_Surfer';
+  src: url('/assets/fonts/Original_Surfer/OriginalSurfer-Regular.ttf');
+}
+
+.surfer {
+  font-family: 'Original_Surfer';
+}
