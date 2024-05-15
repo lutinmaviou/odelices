@@ -22,7 +22,7 @@ const Navbar = () => {
             <Image src="/assets/img/logo.png" alt="logo" width={40} height={40} />
             <div>
               <h2 className="font-bold pl-2 lg:text-sm xl:text-xl 2xl:text-2xl 4xl:text-4xl">
-                Les Gourmandises d&lsquo;<span className="text-red-600">O</span>livier 2.0
+                Ô Délices de Bertrand<span className="text-red-600">O</span>livier 2.0
               </h2>
             </div>
           </Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
             <Link href="/about">À propos</Link>
           </li>
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
-            <Link href="/gallery">galerie d&lsquo;images</Link>
+            <Link href="/gallery">images</Link>
           </li>
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
             <Link href="/contact">contact</Link>
@@ -81,7 +81,7 @@ const Navbar = () => {
                 className="xs:py-2 py-5 xs:text-sm hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
-                <Link href="/gallery">galerie d&lsquo;images</Link>
+                <Link href="/gallery">images</Link>
               </li>
               <li
                 className="xs:py-2 py-5 xs:text-sm hover:text-indigo-500"

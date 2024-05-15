@@ -11,7 +11,7 @@ const ZeldinQuote = () => {
           </span>
           <br />{' '}
           <span className="phrase2">
-            est <span className="font-bold">l&lsquo;Art</span> d&lsquo;utiliser la nourriture
+            est <span className="font-bold">Art</span> utiliser la nourriture
           </span>
           <br /> pour créer du
           <span className="font-bold uppercase bonheur"> bonheur</span>

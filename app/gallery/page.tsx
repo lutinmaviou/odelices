@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 const Gallery = () => {
   return (
     <div className="mt-[200px]">
-      <p className="font-bold text-center uppercase text-3xl">Galerie d&lsquo;images</p>
+      <p className="font-bold text-center uppercase text-3xl">Gallerie</p>
     </div>
   );
 };
