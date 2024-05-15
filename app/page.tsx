@@ -23,7 +23,7 @@ const Home = () => {
         </div>
         <div className="main-title px-5 absolute top-[125px] lg:top-[300px] text-white w-full text-center text-[1.5rem] md:text-[5rem] font-bold">
           <h1>
-            Les Gourmandises d'<span className="text-red-600">O</span>livier 2.0
+            Les Gourmandises d&lsquo;<span className="text-red-600">O</span>livier 2.0
           </h1>
           <h2 className="mt-6 lg:mt-10">Le plaisir de recevoir !</h2>
         </div>
