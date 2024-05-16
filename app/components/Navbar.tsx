@@ -12,7 +12,7 @@ const Navbar = () => {
     console.log(menuIcon);
   };
   return (
-    <header className="kanit w-full fixed top-0 left-0 ease-in duration-300 z-50 text-sm sm:text-xl border-solid border-b-2 bg-slate-50">
+    <header className="kanit w-full fixed top-0 left-0 ease-in duration-300 z-50 sm:text-xl border-solid border-b-2 bg-slate-50">
       <nav className="h-[80px] flex justify-between items-center p-4">
         <div
           className="logo flex justify-between items-center py-3"
@@ -22,7 +22,7 @@ const Navbar = () => {
             <Image src="/assets/img/logo.png" alt="logo" width={40} height={40} />
             <div>
               <h2 className="font-bold pl-2 lg:text-sm xl:text-xl 2xl:text-2xl 4xl:text-4xl">
-                Ô Délices de Bertrand<span className="text-red-600">O</span>livier 2.0
+                Ô Délices de Bertrand
               </h2>
             </div>
           </Link>
