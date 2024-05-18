@@ -31,7 +31,7 @@ const Navbar = () => {
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
             <Link href="/about">À propos</Link>
           </li>
-          <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
+          <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700 border">
             <Link href="/gallery">images</Link>
           </li>
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
@@ -70,7 +70,7 @@ const Navbar = () => {
           }
         >
           <div className="w-full -mt-16">
-            <ul className="uppercase font-bold text-xl">
+            <ul className="uppercase font-bold text-xl w-1/2 m-auto">
               <li
                 className="xs:py-2 py-5 xs:text-sm hover:text-indigo-500"
                 onClick={handleMobileNavigation}
