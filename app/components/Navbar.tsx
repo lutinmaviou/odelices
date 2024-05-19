@@ -12,7 +12,23 @@ const Navbar = () => {
     console.log(menuIcon);
   };
   return (
-    <header className="handlee w-full fixed top-0 left-0 ease-in duration-300 z-50 sm:text-xl border-solid border-b-2 bg-slate-50">
+    <header
+      className="
+    handlee 
+    w-full 
+    fixed 
+    top-0 
+    left-0 
+    ease-in 
+    duration-300 
+    z-50 
+    sm:text-xl 
+    border-solid 
+    border-b-2
+     bg-slate-50
+     select-none
+     "
+    >
       <nav className="h-[80px] flex justify-between items-center p-4">
         <div
           className="logo flex justify-between items-center py-3"
@@ -21,7 +37,7 @@ const Navbar = () => {
           <Link href="/" className="flex justify-around items-center">
             <Image src="/assets/img/logo.png" alt="logo" width={40} height={40} />
             <div>
-              <h2 className="font-bold pl-2 lg:text-sm xl:text-xl 2xl:text-2xl 4xl:text-4xl">
+              <h2 className="font-bold pl-2 pt-2 lg:text-sm xl:text-xl 2xl:text-2xl 4xl:text-4xl">
                 Ô Délices de Bertrand
               </h2>
             </div>
