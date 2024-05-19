@@ -29,16 +29,16 @@ const Home = () => {
           </h1> */}
           <h1>Site en cours de construction</h1>
           {/* <h2 className="mt-6 lg:mt-10">Le plaisir de recevoir !</h2> */}
-          <div className="w-1/2 m-auto py-[calc(100vh/10)]">
+          <div className="w-1/2 m-auto py-[calc(100vh/15)]">
             <Image
               src="/assets/img/gif-en-construction.gif"
               alt="Ouvrier qui creuse"
               width={300}
               height={300}
-              className="m-auto"
+              //className="m-auto"
             />
           </div>
-          <h2 className="text-indigo-500">À bientôt ! test</h2>
+          <h2 className="text-indigo-500">À bientôt !</h2>
         </div>
       </section>
     </main>

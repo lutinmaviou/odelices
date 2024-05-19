@@ -31,7 +31,7 @@ const Navbar = () => {
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
             <Link href="/about">À propos</Link>
           </li>
-          <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700 border">
+          <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
             <Link href="/gallery">images</Link>
           </li>
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
@@ -42,18 +42,16 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="hidden lg:flex">
-          <div className="flex">
-            <Link href="/login">
-              <button className="mr-4 lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 bg-indigo-500 text-slate-50 hover:bg-slate-800 hover:text-indigo-400 rounded-full uppercase font-bold px-8 py-2">
-                connexion
-              </button>
-            </Link>
-            <Link href="/signup">
-              <button className="lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 text-indigo-700 hover:bg-indigo-500 hover:text-slate-50 rounded-full uppercase font-bold px-8 py-2">
-                inscription
-              </button>
-            </Link>
-          </div>
+          <Link href="/login">
+            <button className="mr-4 lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 bg-indigo-500 text-slate-50 hover:bg-slate-800 hover:text-indigo-400 rounded-full uppercase font-bold px-8 py-2">
+              connexion
+            </button>
+          </Link>
+          <Link href="/signup">
+            <button className="lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 text-indigo-700 hover:bg-indigo-500 hover:text-slate-50 rounded-full uppercase font-bold px-8 py-2">
+              inscription
+            </button>
+          </Link>
         </div>
         <div className="flex lg:hidden" onClick={handleMobileNavigation}>
           {menuIcon ? (
@@ -69,28 +67,28 @@ const Navbar = () => {
               : 'mobile-nav lg:hidden absolute top-[80px] right-0 left-[-100%] flex justify-center items-center w-full h-screen text-white text-center ease-in duration-300'
           }
         >
-          <div className="w-full -mt-16">
+          <div className="w-full absolute top-[14%]">
             <ul className="uppercase font-bold text-xl w-1/2 m-auto">
               <li
-                className="xs:py-2 py-5 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-4 xs:text-sm hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/about">À propos</Link>
               </li>
               <li
-                className="xs:py-2 py-5 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-4 xs:text-sm hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/gallery">images</Link>
               </li>
               <li
-                className="xs:py-2 py-5 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-4 xs:text-sm hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/contact">contact</Link>
               </li>
               <li
-                className="xs:py-2 py-5 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-4 xs:text-sm hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/forum">forum</Link>
