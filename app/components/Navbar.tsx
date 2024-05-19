@@ -12,7 +12,7 @@ const Navbar = () => {
     console.log(menuIcon);
   };
   return (
-    <header className="kanit w-full fixed top-0 left-0 ease-in duration-300 z-50 sm:text-xl border-solid border-b-2 bg-slate-50">
+    <header className="handlee w-full fixed top-0 left-0 ease-in duration-300 z-50 sm:text-xl border-solid border-b-2 bg-slate-50">
       <nav className="h-[80px] flex justify-between items-center p-4">
         <div
           className="logo flex justify-between items-center py-3"
