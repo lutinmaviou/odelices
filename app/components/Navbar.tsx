@@ -70,25 +70,25 @@ const Navbar = () => {
           <div className="w-full absolute top-[10%]">
             <ul className="uppercase font-bold text-xl w-1/2 m-auto">
               <li
-                className="xs:py-2 py-4 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-3 xs:text-sm hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/about">À propos</Link>
               </li>
               <li
-                className="xs:py-2 py-4 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-3 xs:text-sm hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/gallery">images</Link>
               </li>
               <li
-                className="xs:py-2 py-4 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-3 xs:text-sm hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/contact">contact</Link>
               </li>
               <li
-                className="xs:py-2 py-4 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-3 xs:text-sm hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/forum">forum</Link>
