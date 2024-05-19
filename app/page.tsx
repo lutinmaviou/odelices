@@ -38,7 +38,7 @@ const Home = () => {
               className="m-auto"
             />
           </div>
-          <h2 className="text-indigo-500">À bientôt !</h2>
+          <h2 className="text-indigo-500">À bientôt ! test</h2>
         </div>
       </section>
     </main>
