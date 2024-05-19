@@ -67,7 +67,7 @@ const Navbar = () => {
               : 'mobile-nav lg:hidden absolute top-[80px] right-0 left-[-100%] flex justify-center items-center w-full h-screen text-white text-center ease-in duration-300'
           }
         >
-          <div className="w-full absolute top-[14%]">
+          <div className="w-full absolute top-[10%]">
             <ul className="uppercase font-bold text-xl w-1/2 m-auto">
               <li
                 className="xs:py-2 py-4 xs:text-sm hover:text-indigo-500"
