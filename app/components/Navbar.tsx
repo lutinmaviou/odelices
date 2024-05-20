@@ -22,14 +22,13 @@ const Navbar = () => {
     ease-in 
     duration-300 
     z-10 
+    border
     sm:text-xl 
-    border-solid 
-    border-b-2
      bg-slate-50
      select-none
      "
     >
-      <nav className="h-[80px] flex justify-between items-center p-4 border border-yellow-500">
+      <nav className="h-[80px] flex justify-between items-center p-4">
         <div
           className="logo flex justify-between items-center py-3"
           onClick={menuIcon === true ? handleMobileNavigation : undefined}
