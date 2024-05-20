@@ -21,7 +21,7 @@ const Navbar = () => {
     left-0 
     ease-in 
     duration-300 
-    z-50 
+    z-10 
     sm:text-xl 
     border-solid 
     border-b-2
@@ -29,7 +29,7 @@ const Navbar = () => {
      select-none
      "
     >
-      <nav className="h-[80px] flex justify-between items-center p-4">
+      <nav className="h-[80px] flex justify-between items-center p-4 border border-yellow-500">
         <div
           className="logo flex justify-between items-center py-3"
           onClick={menuIcon === true ? handleMobileNavigation : undefined}
@@ -83,45 +83,47 @@ const Navbar = () => {
               : 'mobile-nav lg:hidden absolute top-[80px] right-0 left-[-100%] flex justify-center items-center w-full h-screen text-white text-center ease-in duration-300'
           }
         >
-          <div className="w-full absolute top-[calc(9vh)]">
-            <ul className="uppercase font-bold text-xl w-1/2 m-auto">
+          <div className="w-full h-screen flex items-center justify-center">
+            <ul className="uppercase font-bold md:text-4xl xs:text-sm w-1/2 mt-[-80px]">
               <li
-                className="xs:py-2 py-3 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-3 hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/about">À propos</Link>
               </li>
               <li
-                className="xs:py-2 py-3 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-3 hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/gallery">images</Link>
               </li>
               <li
-                className="xs:py-2 py-3 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-3 hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/contact">contact</Link>
               </li>
               <li
-                className="xs:py-2 py-3 xs:text-sm hover:text-indigo-500"
+                className="xs:py-2 py-3 hover:text-indigo-500"
                 onClick={handleMobileNavigation}
               >
                 <Link href="/forum">forum</Link>
               </li>
+              <li className="mt-5">
+                <Link href="/login" onClick={handleMobileNavigation}>
+                  <button className="text-white bg-indigo-500 uppercase font-bold rounded-full py-3 w-[50vw] mb-3">
+                    connexion
+                  </button>
+                </Link>
+              </li>
+              <li>
+                <Link href="/signup" onClick={handleMobileNavigation}>
+                  <button className="border-2 border-indigo-500 text-white uppercase font-bold rounded-full py-3 w-[50vw] mb-1">
+                    inscription
+                  </button>
+                </Link>
+              </li>
             </ul>
-            <div className="flex flex-col justify-center items-center mt-5">
-              <Link href="/login" onClick={handleMobileNavigation}>
-                <button className="xs:text-sm text-white bg-indigo-500  uppercase font-bold rounded-full py-3 w-[50vw] mb-3">
-                  connexion
-                </button>
-              </Link>
-              <Link href="/signup" onClick={handleMobileNavigation}>
-                <button className="xs:text-sm border-2 border-indigo-500 text-white  uppercase font-bold rounded-full py-3 w-[50vw] mb-1">
-                  inscription
-                </button>
-              </Link>
-            </div>
           </div>
         </div>
       </nav>
