@@ -1,6 +1,6 @@
 import './globals.scss';
 import type { Metadata } from 'next';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar2';
 
 export const metadata: Metadata = {
   title: "Les Gourmandises d'Olivier",
@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr">
       <body suppressHydrationWarning={true}>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
       </body>
     </html>

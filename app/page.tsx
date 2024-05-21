@@ -9,9 +9,8 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <main className="">
+    /*  <main className="">
       <section className="h-[calc(100vh-80px)] flex flex-col mt-[80px] w-[90%] mx-auto font-bold">
-        {/* h-[calc(100vh-74px)] */}
         <div
           className="
           main-title 
@@ -24,9 +23,35 @@ const Home = () => {
           m-auto
           "
         >
-          {/* <h1 className='cinzel text-orange-400'>
-            Profitez de vos invités en toute tranquillité
-          </h1> */}
+          <h1>Site en cours de construction</h1>
+
+          <div className="w-1/2 m-auto py-[calc(100vh/15)]">
+            <Image
+              src="/assets/img/gif-en-construction.gif"
+              alt="Ouvrier qui creuse"
+              width={300}
+              height={300}
+              className="m-auto"
+            />
+          </div>
+          <h2 className="text-indigo-500">À bientôt !</h2>
+        </div>
+      </section>
+    </main> */
+    <main className="">
+      <section className="h-screen flex flex-col w-[90%] mx-auto font-bold">
+        <div
+          className="
+          main-title 
+          cinzel
+        text-orange-400
+          text-center 
+          text-[1.5rem]
+          md:text-[3rem] 
+          lg:text-[3.5rem]
+          m-auto
+          "
+        >
           <h1>Site en cours de construction</h1>
           {/* <h2 className="mt-6 lg:mt-10">Le plaisir de recevoir !</h2> */}
           <div className="w-1/2 m-auto py-[calc(100vh/15)]">
