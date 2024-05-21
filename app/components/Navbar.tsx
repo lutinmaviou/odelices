@@ -81,9 +81,9 @@ const Navbar = () => {
               : 'mobile-nav lg:hidden absolute top-[80px] right-0 left-[-100%] flex justify-center items-center w-full h-screen text-white text-center ease-in duration-300'
           }
         >
-          {screen.orientation.type === 'landscape-primary' ? (
+          {/* {screen.orientation.type === 'landscape-primary' ? (
             <div>toto</div>
-          ) : (
+          ) : ( */}
             <div className="w-full h-screen flex items-center justify-center">
               <ul className="uppercase font-bold md:text-4xl xs:text-sm w-1/2 mt-[-80px]">
                 <li
@@ -126,7 +126,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-          )}
+          {/* )} */}
         </div>
       </nav>
     </header>
