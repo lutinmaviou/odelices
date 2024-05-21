@@ -35,7 +35,7 @@ const Home = () => {
               alt="Ouvrier qui creuse"
               width={300}
               height={300}
-              //className="m-auto"
+              className="m-auto"
             />
           </div>
           <h2 className="text-indigo-500">À bientôt !</h2>
