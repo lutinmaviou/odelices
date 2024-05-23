@@ -25,6 +25,7 @@ const Gallery = () => {
             alt="clafoutis aux pommes"
             width={500}
             height={500}
+            layout="responsive"
           />
         </div>
       </main>
