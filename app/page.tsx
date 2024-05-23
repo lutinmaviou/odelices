@@ -38,6 +38,14 @@ const Home = () => {
               className="m-auto"
             />
           </div>
+          <div className="m-8 border-4 border-slate-600">
+            <Image
+              src="/assets/img/clafoutis-pommes.png"
+              alt="clafoutis aux pommes"
+              width={500}
+              height={500}
+            />
+          </div>
           <h2 className="text-indigo-500">À bientôt !</h2>
         </div>
       </section>
