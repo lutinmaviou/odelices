@@ -42,8 +42,8 @@ const Home = () => {
             <Image
               src="/assets/img/clafoutis-pommes.png"
               alt="clafoutis aux pommes"
-              width={500}
-              height={500}
+              width={800}
+              height={820}
             />
           </div>
           <h2 className="text-indigo-500">À bientôt !</h2>
