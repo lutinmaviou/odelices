@@ -40,7 +40,7 @@ const Home = () => {
           </div>
           <div className="m-8 border-4 border-slate-600">
             <Image
-              src="/assets/img/clafoutis-pommes.png"
+              src="/assets/img/logo.png"
               alt="clafoutis aux pommes"
               width={800}
               height={820}
