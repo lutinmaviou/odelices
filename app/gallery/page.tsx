@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 const Gallery = () => {
   return (
     <>
-      <p className="mt-[30vw] font-bold text-center uppercase text-3xl">Gallerie</p>
-      <main className="mt-5">
+      <h2 className="mt-[10dvh] font-bold text-center uppercase text-3xl">Gallerie</h2>
+      <main className="relative">
         <div className="m-8 border-4 border-slate-600">
           <Image
             src="/assets/img/clafoutis-pommes.png"
