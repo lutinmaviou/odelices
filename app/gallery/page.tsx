@@ -13,7 +13,7 @@ const Gallery = () => {
       <main className="">
         <div className="m-8 border-4 border-slate-600">
           <Image
-            src="/assets/img/clafoutis-pommes.png"
+            src="/assets/img/clafoutis.png"
             alt="clafoutis aux pommes"
             width={500}
             height={500}
@@ -22,7 +22,7 @@ const Gallery = () => {
         <div className="m-8 border-4 border-slate-600">
           <Image
             className='m-auto'
-            src="/assets/img/clafoutis-pommes.png"
+            src="/assets/img/clafoutis.png"
             alt="clafoutis aux pommes"
             width={500}
             height={500}
