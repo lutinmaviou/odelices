@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link href="/" className="flex justify-around items-center">
             <Image src="/assets/img/logo.png" alt="logo" width={40} height={40} />
             <div>
-              <h2 className=" pl-2 pt-2 lg:text-sm xl:text-xl 2xl:text-2xl 4xl:text-4xl hover:font-bold">
+              <h2 className=" pl-2 pt-2 lg:text-sm xl:text-xl 2xl:text-2xl 4xl:text-4xl font-bold">
                 Ô Délices de Bertrand
               </h2>
             </div>

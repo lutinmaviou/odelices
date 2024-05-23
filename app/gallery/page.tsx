@@ -13,26 +13,26 @@ const Gallery = () => {
       <main className="">
         <div className="m-8 border-4 border-slate-600">
           <Image
-            src="/assets/img/clafoutis.png"
+            src="/assets/img/clafoutis.jpg"
             alt="clafoutis aux pommes"
-            width={800}
-            height={820}
-          />
-        </div>
-        <div className="m-8 border-4 border-slate-600">
-          <Image
-            src="/assets/img/anniv.jpg"
-            alt="Gâteaux d'anniversaire"
-            width={800}
-            height={1067}
+            width={500}
+            height={513}
           />
         </div>
         <div className="m-8 border-4 border-slate-600">
           <Image
             src="/assets/img/anniv2.jpg"
             alt="Gâteaux d'anniversaire"
-            width={800}
-            height={1067}
+            width={500}
+            height={667}
+          />
+        </div>
+        <div className="m-8 border-4 border-slate-600">
+          <Image
+            src="/assets/img/anniv.jpg"
+            alt="Gâteaux d'anniversaire"
+            width={500}
+            height={667}
           />
         </div>
       </main>
