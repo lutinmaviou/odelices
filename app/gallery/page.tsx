@@ -21,11 +21,11 @@ const Gallery = () => {
         </div>
         <div className="m-8 border-4 border-slate-600">
           <Image
+            className='m-auto'
             src="/assets/img/clafoutis-pommes.png"
             alt="clafoutis aux pommes"
             width={500}
             height={500}
-            layout="responsive"
           />
         </div>
       </main>
