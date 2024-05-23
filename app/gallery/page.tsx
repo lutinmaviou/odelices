@@ -15,17 +15,24 @@ const Gallery = () => {
           <Image
             src="/assets/img/clafoutis.png"
             alt="clafoutis aux pommes"
-            width={500}
-            height={500}
+            width={800}
+            height={820}
           />
         </div>
         <div className="m-8 border-4 border-slate-600">
           <Image
-            className='m-auto'
-            src="/assets/img/clafoutis.png"
-            alt="clafoutis aux pommes"
-            width={500}
-            height={500}
+            src="/assets/img/anniv.jpg"
+            alt="Gâteaux d'anniversaire"
+            width={800}
+            height={1067}
+          />
+        </div>
+        <div className="m-8 border-4 border-slate-600">
+          <Image
+            src="/assets/img/anniv2.jpg"
+            alt="Gâteaux d'anniversaire"
+            width={800}
+            height={1067}
           />
         </div>
       </main>
