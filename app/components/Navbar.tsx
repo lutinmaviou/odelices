@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
           </Link>
         </div>
-        <ul className="hidden lg:flex lg:text-base xl:text-xl 2xl:text-2xl 4xl:text-4xl uppercase font-bold text-slate-800">
+        <ul className="hidden mt-2 lg:flex lg:text-base xl:text-xl 2xl:text-2xl 4xl:text-4xl uppercase font-bold text-slate-800">
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
             <Link href="/about">à propos</Link>
           </li>
@@ -59,12 +59,12 @@ const Navbar = () => {
         </ul>
         <div className="hidden lg:flex">
           <Link href="/login">
-            <button className="mr-4 lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 bg-indigo-500 text-slate-50 hover:bg-slate-800 hover:text-indigo-300 rounded-full uppercase font-bold px-8 py-2">
+            <button className="mr-4 lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 bg-indigo-500 text-slate-50 hover:bg-slate-800 hover:text-indigo-100 rounded-full uppercase font-bold px-8 py-2">
               connexion
             </button>
           </Link>
           <Link href="/signup">
-            <button className="lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 text-indigo-700 hover:bg-slate-800 hover:text-indigo-300 rounded-full uppercase font-bold px-8 py-2">
+            <button className="lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 text-indigo-700 hover:bg-slate-800 hover:text-indigo-100 rounded-full uppercase font-bold px-8 py-2">
               inscription
             </button>
           </Link>

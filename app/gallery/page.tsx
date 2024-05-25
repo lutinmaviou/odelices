@@ -1,6 +1,7 @@
 'use client';
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import './gallery.scss';
 import { useCallback } from 'react';
 import { PhotoAlbum, RenderPhotoProps } from 'react-photo-album';
 
@@ -30,16 +31,16 @@ const photo = [
     height: 513,
   },
   {
-    src: '/assets/img/anniv.jpg',
+    src: '/assets/img/truite.jpg',
     alt: 'clafoutis aux pommes',
-    width: 1000,
-    height: 610,
+    width: 800,
+    height: 600,
   },
   {
-    src: '/assets/img/anniv2.jpg',
+    src: '/assets/img/dahl.jpg',
     alt: 'clafoutis aux pommes',
-    width: 500,
-    height: 667,
+    width: 600,
+    height: 800,
   },
   {
     src: '/assets/img/clafoutis.jpg',
@@ -94,7 +95,8 @@ const Gallery = () => {
           ...style,
           borderRadius: '0.2vw',
           boxShadow:
-            '0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%)'
+            '0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%)',
+          backgroundColor: 'white',
         }}
         {...rest}
       />
@@ -102,8 +104,8 @@ const Gallery = () => {
     []
   );
   return (
-    <main className="select-none">
-      <h2 className="mt-[15dvh] font-bold text-center uppercase text-3xl">Gallerie</h2>
+    <main className="gallery-container select-none py-[15dvh]">
+      <h2 className="font-bold text-center uppercase text-3xl">Gallerie</h2>
       <section className="my-10 w-2/3 m-auto">
         <PhotoAlbum
           layout="rows"
