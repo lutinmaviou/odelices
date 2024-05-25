@@ -1,6 +1,6 @@
 import './globals.scss';
 import type { Metadata } from 'next';
-import Navbar from './components/Navbar2';
+import Navbar from './components/Navbar';
 
 export const metadata: Metadata = {
   title: "Ô Délices de Bertrand",

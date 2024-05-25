@@ -11,7 +11,6 @@ const Home = () => {
   return (
     <main className="">
       <section className="h-[calc(100dvh-80px)] flex flex-col mt-[80px] w-[90%] mx-auto font-bold">
-        {/* h-[calc(100vh-74px)] */}
         <div
           className="
           main-title 

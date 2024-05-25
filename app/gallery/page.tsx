@@ -102,9 +102,9 @@ const Gallery = () => {
     []
   );
   return (
-    <>
+    <main className="select-none">
       <h2 className="mt-[15dvh] font-bold text-center uppercase text-3xl">Gallerie</h2>
-      <main className="my-10 w-2/3 m-auto">
+      <section className="my-10 w-2/3 m-auto">
         <PhotoAlbum
           layout="rows"
           photos={photo}
@@ -113,43 +113,9 @@ const Gallery = () => {
           targetRowHeight={400}
           renderPhoto={renderPhoto}
         />
-      </main>
-    </>
+      </section>
+    </main>
   );
 };
-
-/* const Gallery = () => {
-  return (
-    <>
-      <h2 className="mt-[15dvh] font-bold text-center uppercase text-3xl">Gallerie</h2>
-      <main className="">
-        <div className="m-8 border-4 border-slate-600">
-          <Image
-            src="/assets/img/clafoutis.jpg"
-            alt="clafoutis aux pommes"
-            width={500}
-            height={513}
-          />
-        </div>
-        <div className="m-8 border-4 border-slate-600">
-          <Image
-            src="/assets/img/anniv2.jpg"
-            alt="Gâteaux d'anniversaire"
-            width={500}
-            height={667}
-          />
-        </div>
-        <div className="m-8 border-4 border-slate-600">
-          <Image
-            src="/assets/img/anniv.jpg"
-            alt="Gâteaux d'anniversaire"
-            width={500}
-            height={667}
-          />
-        </div>
-      </main>
-    </>
-  );
-}; */
 
 export default Gallery;
