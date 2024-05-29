@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <main className="">
+    <main className="bg-[#0F0F0F]">
       <section className="h-[calc(100dvh-80px)] flex flex-col mt-[80px] w-[90%] mx-auto font-bold">
         <div
           className="
@@ -29,13 +29,25 @@ const Home = () => {
           <h1>Site en cours de préparation...</h1>
           {/* <h2 className="mt-6 lg:mt-10">Le plaisir de recevoir !</h2> */}
           <div className="w-1/2 m-auto py-[calc(100vh/15)]">
-            <Image
+            {/* <Image
               src="/assets/img/homer.gif"
               alt="Ouvrier qui creuse"
               width={300}
               height={300}
               className="m-auto"
-            />
+            /> */}
+            <div>
+              <iframe
+                src="https://giphy.com/embed/3QO7d0RBoxNd04ueF4"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <p>
+              {/* <a href="https://giphy.com/gifs/3QO7d0RBoxNd04ueF4">via GIPHY</a> */}
+            </p>
           </div>
           <h2 className="text-indigo-500">À bientôt !</h2>
         </div>
