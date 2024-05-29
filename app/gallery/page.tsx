@@ -43,46 +43,10 @@ const photo = [
     height: 800,
   },
   {
-    src: '/assets/img/clafoutis.jpg',
-    alt: 'clafoutis aux pommes',
-    width: 500,
-    height: 513,
-  },
-  {
     src: '/assets/img/anniv.jpg',
     alt: 'clafoutis aux pommes',
     width: 500,
     height: 667,
-  },
-  {
-    src: '/assets/img/anniv2.jpg',
-    alt: 'clafoutis aux pommes',
-    width: 500,
-    height: 667,
-  },
-  {
-    src: '/assets/img/clafoutis.jpg',
-    alt: 'clafoutis aux pommes',
-    width: 500,
-    height: 513,
-  },
-  {
-    src: '/assets/img/anniv.jpg',
-    alt: 'clafoutis aux pommes',
-    width: 500,
-    height: 667,
-  },
-  {
-    src: '/assets/img/anniv2.jpg',
-    alt: 'clafoutis aux pommes',
-    width: 500,
-    height: 667,
-  },
-  {
-    src: '/assets/img/clafoutis.jpg',
-    alt: 'clafoutis aux pommes',
-    width: 500,
-    height: 513,
   },
 ];
 
