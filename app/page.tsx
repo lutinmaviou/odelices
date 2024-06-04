@@ -9,12 +9,13 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <main className="bg-[#0F0F0F]">
+    <main className="bg-[#151314]">
       <section className="h-[calc(100dvh-80px)] flex flex-col mt-[80px] w-[90%] mx-auto font-bold">
         <div
           className="
           main-title 
-          cinzel
+          handlee
+          uppercase
         text-orange-400
           text-center 
           text-[1.5rem]
@@ -28,7 +29,7 @@ const Home = () => {
           </h1> */}
           <h1>Site en cours de préparation...</h1>
           {/* <h2 className="mt-6 lg:mt-10">Le plaisir de recevoir !</h2> */}
-          <div className="w-1/2 m-auto py-[calc(100vh/15)]">
+          <div className="w-1/2 m-auto py-[calc(100dvh/15)]">
             {/* <Image
               src="/assets/img/homer.gif"
               alt="Ouvrier qui creuse"
