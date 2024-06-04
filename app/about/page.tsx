@@ -60,9 +60,9 @@ const About = () => {
       number: {
         density: {
           enable: true,
-          area: 900,
+          area: 500,
         },
-        value: 80,
+        value: 100,
       },
       opacity: {
         value: 0.3,
