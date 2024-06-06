@@ -21,11 +21,11 @@ const Navbar = () => {
       left-0 
       ease-in 
       duration-300 
-      z-10 
+      z-20 
       border-b
     border-gray-400
       sm:text-xl 
-    bg-slate-200
+      bg-[rgb(200,200,200,0.5)]
       select-none
      "
     >
@@ -45,16 +45,16 @@ const Navbar = () => {
         </div>
         <ul className="hidden mt-2 lg:flex lg:text-base xl:text-xl 2xl:text-2xl 4xl:text-4xl capitalize font-bold text-slate-800">
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
-            <Link href="/about">à propos</Link>
+            <Link href="/about">[ A propos ]</Link>
           </li>
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700 px-8">
-            <Link href="/gallery">images</Link>
+            <Link href="/gallery">_ Images _</Link>
           </li>
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700 pr-8">
-            <Link href="/contact">contact</Link>
+            <Link href="/contact"># Contact #</Link>
           </li>
           <li className="lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
-            <Link href="/forum">forum</Link>
+            <Link href="/forum">" Forum "</Link>
           </li>
         </ul>
         <div className="hidden lg:flex">

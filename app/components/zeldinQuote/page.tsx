@@ -3,8 +3,8 @@ import './page.scss';
 
 const ZeldinQuote = () => {
   return (
-    <section className="zeldin-quote text-center">
-      <div className="redressed citation text-[1.2rem]">
+    <section className="text-center">
+      <div className=" citation text-[1.2rem]">
         <q>
           <span>
             La <span className="font-bold uppercase gastronomie">gastronomie</span>

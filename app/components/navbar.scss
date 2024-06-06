@@ -4,4 +4,8 @@
 
 .navbar {
   box-shadow: -0.2vw 0.2vw 0.5vw gray;
+  &:hover {
+    background-color: rgb(220, 220, 220);
+    transition: .6s;
+  }
 }
