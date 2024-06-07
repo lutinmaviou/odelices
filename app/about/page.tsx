@@ -26,7 +26,7 @@ const About = () => {
         <aside className="flex flex-col w-4/5 lg:w-1/2 handlee text-slate-700 text-justify text-xl lg:text-2xl z-10">
           <div className="border rounded-md p-5 lg:p-10 lg:w-4/5 mb-5 lg:mb-10 bg-[rgb(255,255,255,0.95)] agentCard transition duration-300 ease-in hover:scale-125 hover:cursor-zoom-in">
             <p>
-              Passionné par l&lsquo;art culinaire, et créateur d'expériences
+              Passionné par l&lsquo;art culinaire, et créateur d&lsquo;expériences
               gastronomiques authentiques, je mets mon savoir-faire au service de vos
               envies gustatives.
             </p>

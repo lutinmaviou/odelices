@@ -54,7 +54,7 @@ const Navbar = () => {
             <Link href="/contact"># Contact #</Link>
           </li>
           <li className="lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
-            <Link href="/forum">" Forum "</Link>
+            <Link href="/forum">&ldquo; Forum &ldquo;</Link>
           </li>
         </ul>
         <div className="hidden lg:flex">
