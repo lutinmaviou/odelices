@@ -10,6 +10,7 @@ const Navbar = () => {
   const handleMobileNavigation = () => {
     setMenuIcon(!menuIcon);
   };
+
   return (
     <header
       className="
@@ -19,13 +20,14 @@ const Navbar = () => {
       fixed 
       top-0 
       left-0 
-      ease-in 
-      duration-300 
+      ease-in
       z-50 
       border-b
-    border-gray-400
-      sm:text-xl 
-      bg-[rgb(200,200,200,0.5)]
+      bg-white
+      lg:bg-transparent
+      hover:bg-slate-100
+      duration-150
+      sm:text-xl
       select-none
      "
     >
@@ -35,7 +37,12 @@ const Navbar = () => {
           onClick={menuIcon === true ? handleMobileNavigation : undefined}
         >
           <Link href="/" className="flex justify-around items-center">
-            <Image src="/assets/img/logo.png" alt="logo" width={40} height={40} />
+            <Image
+              src="/assets/img/logo.png"
+              alt="Logo de l'entreprise"
+              width={40}
+              height={40}
+            />
             <div>
               <h2 className=" pl-2 pt-2 lg:text-sm xl:text-xl 2xl:text-2xl 4xl:text-4xl font-bold">
                 Ô Délices de Bertrand

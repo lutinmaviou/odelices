@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import './page.scss';
 
 export const metadata: Metadata = {
