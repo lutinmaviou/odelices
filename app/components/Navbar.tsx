@@ -21,7 +21,7 @@ const Navbar = () => {
       left-0 
       ease-in 
       duration-300 
-      z-20 
+      z-50 
       border-b
     border-gray-400
       sm:text-xl 
