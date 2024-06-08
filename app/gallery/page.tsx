@@ -11,7 +11,7 @@ import { PhotoAlbum, RenderPhotoProps } from 'react-photo-album';
 }; */
 
 interface Img {
-  src: number;
+  src: string;
   alt: string;
   width: number;
   height: number;
@@ -25,28 +25,100 @@ const photo = [
     height: 667,
   },
   {
-    src: '/assets/img/clafoutis.jpg',
-    alt: 'clafoutis aux pommes',
+    src: '/assets/img/clafoutis-pommes.jpg',
+    alt: 'clafoutis aux pommes et amandes',
     width: 500,
     height: 513,
   },
   {
     src: '/assets/img/truite.jpg',
-    alt: 'clafoutis aux pommes',
+    alt: `Truite rôtie à l'unilatérale`,
     width: 800,
     height: 600,
   },
   {
     src: '/assets/img/dahl.jpg',
-    alt: 'clafoutis aux pommes',
+    alt: 'Dahl indien, oeuf de caille',
     width: 600,
     height: 800,
   },
   {
-    src: '/assets/img/anniv.jpg',
-    alt: 'clafoutis aux pommes',
-    width: 500,
-    height: 667,
+    src: '/assets/img/coque-choco.png',
+    alt: 'Coque en chocolat noir, fruits de saison',
+    width: 769,
+    height: 800,
+  },
+  {
+    src: '/assets/img/tagliatelles-crevettes.jpg',
+    alt: 'Tagliatelles aux crevettes et pesto',
+    width: 600,
+    height: 800,
+  },
+  {
+    src: '/assets/img/maki.jpg',
+    alt: 'Tagliatelles aux crevettes et persillade',
+    width: 600,
+    height: 800,
+  },
+  {
+    src: '/assets/img/salade-gesiers.jpg',
+    alt: `Salade de gésiers d'Halloween`,
+    width: 600,
+    height: 612,
+  },
+  {
+    src: '/assets/img/sushi.jpg',
+    alt: 'Assiette de sushi',
+    width: 600,
+    height: 800,
+  },
+  {
+    src: '/assets/img/veloute-potiron.jpg',
+    alt: `Velouté de légumes d'automne, tartine de magret de canard`,
+    width: 800,
+    height: 600,
+  },
+  {
+    src: '/assets/img/makizushi.jpg',
+    alt: 'Assiette de maki',
+    width: 600,
+    height: 800,
+  },
+  {
+    src: '/assets/img/terrine-fraises.jpg',
+    alt: 'Terrine au chocolat blanc et fraises',
+    width: 600,
+    height: 800,
+  },
+  {
+    src: '/assets/img/clafoutis-cerises.jpg',
+    alt: 'Clafoutis aux cerises sorti du four',
+    width: 600,
+    height: 800,
+  },
+  {
+    src: '/assets/img/tartiflettes.jpg',
+    alt: 'Tartiflettes revisitées',
+    width: 600,
+    height: 800,
+  },
+  {
+    src: '/assets/img/tarti-coulante.jpg',
+    alt: 'Tartiflette coulante',
+    width: 600,
+    height: 800,
+  },
+  {
+    src: '/assets/img/table.jpg',
+    alt: 'Table dressée avec sushi',
+    width: 800,
+    height: 768,
+  },
+  {
+    src: '/assets/img/sushi-roll.gif',
+    alt: 'Gif animé : roulage de makizushi',
+    width: 600,
+    height: 450,
   },
 ];
 
@@ -68,8 +140,8 @@ const Gallery = () => {
     []
   );
   return (
-    <main className="gallery-container select-none py-[15dvh]">
-      <h2 className="font-bold text-center uppercase text-3xl">Gallerie</h2>
+    <main className="gallery-container handlee select-none py-[15dvh]">
+      <h2 className="font-bold text-center underline text-3xl">Gallerie d'images</h2>
       <section className="my-10 w-2/3 m-auto">
         <PhotoAlbum
           layout="rows"

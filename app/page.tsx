@@ -23,19 +23,8 @@ const Home = () => {
           m-auto
           "
         >
-          {/* <h1 className='cinzel text-orange-400'>
-            Profitez de vos invités en toute tranquillité
-          </h1> */}
           <h1>Site en cours de préparation...</h1>
-          {/* <h2 className="mt-6 lg:mt-10">Le plaisir de recevoir !</h2> */}
           <div className="w-1/2 m-auto py-[calc(100dvh/15)]">
-            {/* <Image
-              src="/assets/img/homer.gif"
-              alt="Ouvrier qui creuse"
-              width={300}
-              height={300}
-              className="m-auto"
-            /> */}
             <div>
               <iframe
                 src="https://giphy.com/embed/3QO7d0RBoxNd04ueF4"
@@ -45,9 +34,6 @@ const Home = () => {
                 allowFullScreen
               ></iframe>
             </div>
-            <p>
-              {/* <a href="https://giphy.com/gifs/3QO7d0RBoxNd04ueF4">via GIPHY</a> */}
-            </p>
           </div>
           <h2 className="text-indigo-500">À bientôt !</h2>
         </div>
