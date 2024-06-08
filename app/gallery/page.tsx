@@ -141,7 +141,9 @@ const Gallery = () => {
   );
   return (
     <main className="gallery-container handlee select-none py-[15dvh]">
-      <h2 className="font-bold text-center underline text-3xl">Gallerie d'images</h2>
+      <h2 className="font-bold text-center underline text-3xl">
+        Gallerie d&lsquo;images
+      </h2>
       <section className="my-10 w-2/3 m-auto">
         <PhotoAlbum
           layout="rows"

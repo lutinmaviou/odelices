@@ -15,7 +15,7 @@ const About = () => {
         <div className="absolute">
           <Particles />
         </div>
-        <div className="z-10 lg:w-1/2 lg:mx-10 transition duration-300 ease-in hover:scale-125 hover:cursor-zoom-in">
+        <div className="z-10 lg:w-1/2 lg:mx-10 transition duration-300 ease-in lg:hover:scale-125 hover:cursor-zoom-in">
           <Image
             src="/assets/img/agent-card.png"
             alt="Carte de l'agent culinaire Bertrand"
@@ -24,14 +24,14 @@ const About = () => {
           />
         </div>
         <aside className="flex flex-col w-4/5 lg:w-1/2 handlee text-slate-700 text-justify text-xl lg:text-2xl z-10">
-          <div className="border rounded-md p-5 lg:p-10 lg:w-4/5 mb-10 bg-[rgb(255,255,255,0.95)] agentCard transition duration-300 ease-in hover:scale-125 hover:cursor-zoom-in">
+          <div className="border rounded-md p-5 lg:p-10 lg:w-4/5 mb-10 bg-[rgb(255,255,255,0.95)] agentCard transition duration-300 ease-in lg:hover:scale-125 hover:cursor-zoom-in">
             <p>
               Passionné par l&lsquo;art culinaire, et créateur d&lsquo;expériences
               gastronomiques authentiques, je mets mon savoir-faire au service de vos
               envies gustatives.
             </p>
           </div>
-          <div className="border rounded-md p-5 lg:p-10 lg:mr-20 lg:mt-10 bg-[rgb(255,255,255,0.95)] agentCard transition duration-300 ease-in hover:scale-125 hover:cursor-zoom-in">
+          <div className="border rounded-md p-5 lg:p-10 lg:mr-20 lg:mt-10 bg-[rgb(255,255,255,0.95)] agentCard transition duration-300 ease-in lg:hover:scale-125 hover:cursor-zoom-in">
             <p>
               <span className="text-orange-500 [text-shadow:_0.05vw_0.05vw_0.1vw_rgb(60,60,60)]">
                 &ldquo;Sortez chez vous !&ldquo;
