@@ -73,7 +73,7 @@ const photo = [
     height: 800,
   },
   {
-    src: '/assets/img/veloute-potiron.jpg',
+    src: '/assets/img/veloute.png',
     alt: `Velouté de légumes d'automne, tartine de magret de canard`,
     width: 800,
     height: 600,
@@ -140,7 +140,7 @@ const Gallery = () => {
     []
   );
   return (
-    <main className="gallery-container handlee select-none py-[15dvh]">
+    <main className="gallery-container handlee select-none py-[20dvh]">
       <h2 className="font-bold text-center underline text-3xl">
         Gallerie d&lsquo;images
       </h2>
