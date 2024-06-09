@@ -42,7 +42,7 @@ const About = () => {
           </div>
         </aside>
       </section>
-      <h2 className="w-4/5 lg:w-2/3 z-20 relative my-20 lg:my-48 handlee font-bold text-5xl lg:text-7xl m-auto text-center">
+      <h2 className="w-4/5 lg:w-2/3 z-20 relative my-20 lg:my-48 handlee font-bold text-5xl lg:text-8xl m-auto text-center">
         À propos de Bertrand
       </h2>
       <section className="w-4/5 lg:w-2/3 z-20 relative bg-slate-300 m-auto p-10 text-justify">

@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <header
       className="
-      navbar
+      lg:[text-shadow:_0.1vw_0.1vw_0.05vw_whitesmoke]
       handlee 
       w-full 
       fixed 
@@ -29,7 +29,6 @@ const Navbar = () => {
       duration-150
       sm:text-xl
       select-none
-      drop-shadow-md
      "
     >
       <nav className="h-[80px] flex justify-between items-center p-4">
