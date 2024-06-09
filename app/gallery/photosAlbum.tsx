@@ -109,7 +109,7 @@ const photo = [
   },
 ];
 
-const photosAlbum = () => {
+const PhotosAlbum = () => {
   const renderPhoto = useCallback(
     ({ photo, imageProps: { alt, style } }: RenderPhotoProps) => (
       <figure
@@ -122,8 +122,10 @@ const photosAlbum = () => {
           backgroundColor: 'white',
         }}
       >
-        <Image src={photo} alt={alt} className='rounded-t-lg'/>
-        <figcaption className='rounded-b-lg bg-slate-100 mt-3 p-5 text-center'>{photo.alt} </figcaption>
+        <Image src={photo} alt={alt} className="rounded-t-lg" />
+        <figcaption className="rounded-b-lg bg-slate-100 mt-3 p-5 text-center">
+          {photo.alt}{' '}
+        </figcaption>
       </figure>
     ),
     []
@@ -140,4 +142,4 @@ const photosAlbum = () => {
   );
 };
 
-export default photosAlbum;
+export default PhotosAlbum;
