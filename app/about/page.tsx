@@ -11,19 +11,19 @@ export const metadata: Metadata = {
 const About = () => {
   return (
     <>
-      <section className="py-[15dvh] lg:py-[20dvh] px-10 flex flex-col items-center lg:flex-row justify-around font-bold select-none">
+      <section className="pt-[15dvh] lg:pt-[20dvh] px-10 lg:px-20 flex flex-col items-center lg:flex-row justify-around font-bold select-none">
         <div className="absolute">
           <Particles />
         </div>
-        <div className="z-10 lg:w-1/2 lg:mx-10 transition duration-300 ease-in lg:hover:scale-125 hover:cursor-zoom-in">
+        <div className="z-10 lg:w-1/2 lg:mx-16 mt-10 mb-14 lg:mb-10">
           <Image
-            src="/assets/img/agent-card.png"
+            src="/assets/img/agent-card2.png"
             alt="Carte de l'agent culinaire Bertrand"
-            width={1000}
-            height={124}
+            width={700}
+            height={400}
           />
         </div>
-        <aside className="flex flex-col w-4/5 lg:w-1/2 handlee text-slate-700 text-justify text-xl lg:text-2xl z-10">
+        <aside className="flex flex-col w-11/12 lg:w-1/2 handlee text-justify text-xl lg:text-2xl text-gray-600 z-10">
           <div className="border rounded-md p-5 lg:p-10 lg:w-4/5 mb-10 bg-[rgb(255,255,255,0.95)] agentCard transition duration-300 ease-in lg:hover:scale-125 hover:cursor-zoom-in">
             <p>
               Passionné par l&lsquo;art culinaire, et créateur d&lsquo;expériences
@@ -35,45 +35,48 @@ const About = () => {
             <p>
               <span className="text-orange-500 [text-shadow:_0.05vw_0.05vw_0.1vw_rgb(60,60,60)]">
                 &ldquo;Sortez chez vous !&ldquo;
-              </span>{' '}
+              </span>
               : ce slogan illustre mon appétit à vous faire vivre un moment particulier et
               mémorable, dans le confort de votre cocon familial.
             </p>
           </div>
         </aside>
       </section>
-      <h2 className="relative">Mon histoire</h2>%
-      <section className="h-1/4 w-5/6 z-20 relative bg-slate-300 m-auto p-10">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est aliquam
-        doloremque et ipsa molestias dignissimos ratione, voluptatum id maiores sed ex a
-        iusto deleniti veniam? In ex a soluta? Hic odit saepe perferendis mollitia quo!
-        Vel, alias ipsum velit cupiditate iure optio. Possimus officia cum exercitationem
-        repudiandae corrupti quaerat, error fugit quas quo asperiores dicta? Expedita ex
-        totam quia! Asperiores assumenda architecto nisi aperiam dolores similique sit
-        sapiente distinctio, quia corporis minus, laboriosam sequi. Temporibus eos magni
-        dolorem neque, pariatur molestias cumque quae adipisci, excepturi perspiciatis
-        asperiores assumenda inventore. Atque temporibus dolorem tenetur perferendis
-        eligendi nam cumque veritatis iusto mollitia voluptate unde repellat officia odio,
-        quam ad sequi dignissimos dolores animi velit sint cupiditate totam. Sit quasi
-        ipsam quidem! Adipisci, voluptates at debitis ducimus optio minus, porro
-        necessitatibus distinctio neque officia cum. Voluptatum, dolore magnam iste
-        nesciunt aliquid odio a exercitationem neque sequi fugiat quidem perferendis
-        praesentium alias id! Commodi dolore dolor neque provident debitis placeat
-        reiciendis architecto repudiandae non. Cumque, in labore sit quae nostrum sed
-        quod, mollitia fugit delectus suscipit tempora dicta adipisci perferendis dolorem
-        animi quaerat. Debitis eos officia ipsum suscipit iure voluptatem! Facilis
-        necessitatibus repudiandae libero id! Blanditiis dicta dolor impedit libero
-        accusamus? Officia obcaecati, dolorem facilis corporis minus alias iure nam
-        suscipit nihil neque? Rem pariatur sunt, odio laborum exercitationem expedita
-        veritatis! Reprehenderit dolore omnis repellendus, distinctio quaerat unde
-        consectetur atque obcaecati laboriosam praesentium quisquam placeat totam
-        veritatis impedit exercitationem magnam! Ex, exercitationem laboriosam. Eos unde
-        itaque fugiat? Fuga illum esse dolorum ducimus, quibusdam aut. Optio fugit sequi
-        quae praesentium totam repudiandae. Officia eligendi error, voluptas tempore
-        reprehenderit ex debitis doloremque cumque quos! Qui. Asperiores odio, odit
-        voluptatem saepe sapiente fuga perferendis dolores praesentium illum in accusamus
-        fugit. Reprehenderit, quis nihil? Obcaecati, est! Sed molestias explicabo beatae
-        hic, id cupiditate impedit maiores neque magnam!
+      <h2 className="w-4/5 lg:w-2/3 z-20 relative my-20 lg:my-48 handlee font-bold text-5xl lg:text-7xl m-auto text-center">
+        À propos de Bertrand
+      </h2>
+      <section className="w-4/5 lg:w-2/3 z-20 relative bg-slate-300 m-auto p-10 text-justify">
+        <div className="flex flex-col lg:flex-row">
+          <Image
+            src={'/assets/img/violoncelle.jpg'}
+            width={300}
+            height={150}
+            alt="Bertrand qui joue du violoncelle à 8 ans"
+          />
+          <p className="lg:ml-8 mt-5 lg:mt-0">
+            Ecole de musique, côté artiste blah blah Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Pariatur est aliquam doloremque et ipsa
+            molestias dignissimos ratione, voluptatum id maiores sed ex a iusto deleniti
+            veniam? In ex a soluta? Hic odit saepe perferendis mollitia quo! Vel, alias
+            ipsum velit cupiditate iure optio.
+          </p>
+        </div>
+        <div className="flex flex-col-reverse lg:flex-row mt-12 lg:mt-28">
+          <p className="mt-5 lg:mt-0 lg:mr-8">
+            Avant d&lsquo;intégrer le lycée technologique de Gerardmer en 1995 puis celui
+            de Toulouse en 1997 suite à un déménagement, Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Pariatur est aliquam doloremque et ipsa
+            molestias dignissimos ratione, voluptatum id maiores sed ex a iusto deleniti
+            veniam? In ex a soluta? Hic odit saepe perferendis mollitia quo! Vel, alias
+            ipsum velit cupiditate iure optio.
+          </p>
+          <Image
+            src={'/assets/img/gateau.jpg'}
+            width={300}
+            height={150}
+            alt="Bertrand qui joue du viloncelle à 8 ans"
+          />
+        </div>
       </section>
     </>
   );

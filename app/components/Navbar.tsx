@@ -29,6 +29,7 @@ const Navbar = () => {
       duration-150
       sm:text-xl
       select-none
+      drop-shadow-md
      "
     >
       <nav className="h-[80px] flex justify-between items-center p-4">
