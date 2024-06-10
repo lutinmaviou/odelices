@@ -14,7 +14,7 @@ const Home = () => {
         <div
           className="
           main-title 
-          surfer
+          handlee
         text-orange-500
           text-center 
           text-[1.5rem]
@@ -35,8 +35,6 @@ const Home = () => {
               className="mt-5"
             />
           </div>
-
-          {/* <h2 className="text-indigo-500">À bientôt !</h2> */}
         </div>
       </section>
     </main>
