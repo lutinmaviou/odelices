@@ -7,9 +7,37 @@ export const metadata: Metadata = {
 
 const Contact = () => {
   return (
-    <div className="mt-[200px]">
-      <p className="font-bold text-center uppercase text-3xl">Contact</p>
-    </div>
+    <main className="bg-[#151314]">
+      <section className="h-[calc(100dvh-80px)] flex flex-col mt-[80px] w-[90%] mx-auto font-bold">
+        <div
+          className="
+          main-title 
+          handlee
+          uppercase
+        text-orange-400
+          text-center 
+          text-[1.5rem]
+          md:text-[3rem] 
+          lg:text-[3.5rem]
+          m-auto
+          "
+        >
+          <h1>Page en cours de préparation...</h1>
+          <div className="w-1/2 m-auto py-[calc(100dvh/15)]">
+            <div>
+              <iframe
+                src="https://giphy.com/embed/3QO7d0RBoxNd04ueF4"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+          <h2 className="text-indigo-500">À bientôt !</h2>
+        </div>
+      </section>
+    </main>
   );
 };
 

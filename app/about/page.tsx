@@ -23,7 +23,7 @@ const About = () => {
             height={400}
           />
         </div>
-        <aside className="flex flex-col w-11/12 lg:w-1/2 handlee text-justify text-xl lg:text-2xl text-gray-600 z-10">
+        <aside className="flex flex-col w-11/12 lg:w-1/2 handlee lg:text-justify text-xl lg:text-2xl text-gray-600 z-10">
           <div className="border rounded-md p-5 lg:p-10 lg:w-4/5 mb-10 bg-[rgb(255,255,255,0.95)] agentCard transition duration-300 ease-in lg:hover:scale-125 hover:cursor-zoom-in">
             <p>
               Passionné par l&lsquo;art culinaire, et créateur d&lsquo;expériences
@@ -42,8 +42,8 @@ const About = () => {
           </div>
         </aside>
       </section>
-      <h2 className="w-4/5 lg:w-2/3 z-20 relative my-20 lg:my-48 handlee font-bold text-5xl lg:text-8xl m-auto text-center">
-        À propos de Bertrand
+      <h2 className="w-4/5 lg:w-2/3 z-20 relative my-20 lg:my-48 handlee font-bold text-5xl lg:text-8xl m-auto text-center text-slate-500 underline">
+        Un peu plus de Bertrand...
       </h2>
       <section className="w-4/5 lg:w-2/3 z-20 relative bg-slate-300 m-auto p-10 text-justify">
         <div className="flex flex-col lg:flex-row">

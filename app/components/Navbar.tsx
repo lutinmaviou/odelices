@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
         <ul className="hidden mt-2 lg:flex lg:text-base xl:text-xl 2xl:text-2xl 4xl:text-4xl capitalize font-bold text-slate-800">
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700">
-            <Link href="/about">[ A propos ]</Link>
+            <Link href="/about">[ À propos ]</Link>
           </li>
           <li className="mr-4 lg:mr-8 hover:drop-shadow-lg hover:text-indigo-700 px-8">
             <Link href="/gallery">_ Images _</Link>

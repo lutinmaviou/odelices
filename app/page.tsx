@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './page.scss';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Accueil | Ô Délices de Bertrand',
@@ -8,14 +9,13 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <main className="bg-[#151314]">
+    <main className="bg-slate-400 bg-texture">
       <section className="h-[calc(100dvh-80px)] flex flex-col mt-[80px] w-[90%] mx-auto font-bold">
         <div
           className="
           main-title 
-          handlee
-          uppercase
-        text-orange-400
+          surfer
+        text-orange-500
           text-center 
           text-[1.5rem]
           md:text-[3rem] 
@@ -23,19 +23,20 @@ const Home = () => {
           m-auto
           "
         >
-          <h1>Site en cours de préparation...</h1>
-          <div className="w-1/2 m-auto py-[calc(100dvh/15)]">
-            <div>
-              <iframe
-                src="https://giphy.com/embed/3QO7d0RBoxNd04ueF4"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                allowFullScreen
-              ></iframe>
-            </div>
+          <div className="w-4/5 lg:w-1/2 m-auto py-[calc(100dvh/15)]">
+            <h1 className="text-3xl lg:text-6xl w-2/3 lg:w-full m-auto relative coming-title">
+              Ô Délices de Bertrand
+            </h1>
+            <Image
+              src={'/assets/img/chef-lutin.png'}
+              width={1920}
+              height={1097}
+              alt="Coque en chocolat noir, crème fouettée au citron vert et fruits de saison"
+              className="mt-5"
+            />
           </div>
-          <h2 className="text-indigo-500">À bientôt !</h2>
+
+          {/* <h2 className="text-indigo-500">À bientôt !</h2> */}
         </div>
       </section>
     </main>
