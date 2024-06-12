@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 const Home = () => {
   return (
     <main className="bg-slate-400 bg-texture">
+      <div className="absolute h-[30dvh] lg:h-[60dvh] w-full bg-white bg-texture"></div>
       <section className="h-[calc(100dvh-80px)] flex flex-col mt-[80px] w-[90%] mx-auto font-bold">
         <div
           className="
           main-title 
           handlee
-        text-orange-500
           text-center 
           text-[1.5rem]
           md:text-[3rem] 
@@ -24,15 +24,18 @@ const Home = () => {
           "
         >
           <div className="w-4/5 lg:w-1/2 m-auto py-[calc(100dvh/15)]">
-            <h1 className="text-3xl lg:text-6xl w-2/3 lg:w-full m-auto relative coming-title">
+            <h1 className="text-3xl lg:text-6xl w-4/5 lg:w-full m-auto relative -top-20 lg:top-0 text-orange-500">
               Ô Délices de Bertrand
             </h1>
+            <h2 className="text-amber-400 relative -top-20 pt-1 lg:top-0">
+              Un chef dans votre cuisine
+            </h2>
             <Image
               src={'/assets/img/chef-lutin.png'}
-              width={1920}
+              width={1200}
               height={1097}
               alt="Coque en chocolat noir, crème fouettée au citron vert et fruits de saison"
-              className="mt-5"
+              className="mt-5 relative"
             />
           </div>
         </div>

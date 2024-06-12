@@ -31,12 +31,15 @@ const Navbar = () => {
       select-none
      "
     >
-      <nav className="h-[80px] flex justify-between items-center p-4">
+      <nav className="h-[80px] flex justify-between items-center p-4 lg:py-4 lg:px-12">
         <div
           className="logo flex justify-between items-center py-3"
           onClick={menuIcon === true ? handleMobileNavigation : undefined}
         >
-          <Link href="/" className="flex justify-around items-center">
+          <Link
+            href="/"
+            className="flex justify-around items-center hover:scale-110 transition"
+          >
             <Image
               src="/assets/img/logo.png"
               alt="Logo de l'entreprise"
@@ -64,16 +67,26 @@ const Navbar = () => {
             <Link href="/forum">&ldquo; Forum &ldquo;</Link>
           </li>
         </ul>
-        <div className="hidden lg:flex">
+        {/* <div className="hidden lg:flex">
           <Link href="/login">
-            <button className="capitalize mr-4 lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 bg-indigo-500 text-slate-50 hover:bg-slate-800 hover:text-indigo-100 rounded-full font-bold px-8 py-2">
-              connexion
+            <button className="mr-4 lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 bg-indigo-500 text-slate-50 hover:bg-slate-800 hover:text-indigo-100 rounded-full font-bold px-8 py-2">
+              Connexion
             </button>
           </Link>
           <Link href="/signup">
-            <button className="capitalize lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 text-indigo-700 hover:bg-slate-800 hover:text-indigo-100 rounded-full font-bold px-8 py-2">
-              inscription
+            <button className="lg:text-sm xl:text-xl 4xl:text-3xl border-2 border-indigo-500 text-indigo-700 hover:bg-slate-800 hover:text-indigo-100 rounded-full font-bold px-8 py-2">
+              Inscription
             </button>
+          </Link>
+        </div> */}
+        <div className="lg:mr-8 hover:scale-125 transition hover:text-indigo-700">
+          <Link href="/forum">
+            <Image
+              src={'/assets/img/logo-sap.gif'}
+              width={70}
+              height={70}
+              alt="Logo Service à la personne"
+            />
           </Link>
         </div>
         <div className="flex lg:hidden" onClick={handleMobileNavigation}>
@@ -116,7 +129,7 @@ const Navbar = () => {
               >
                 <Link href="/forum">forum</Link>
               </li>
-              <li className="mt-5">
+              {/* <li className="mt-5">
                 <Link href="/login" onClick={handleMobileNavigation}>
                   <button className="text-white bg-indigo-500 uppercase font-bold rounded-full py-3 w-[50vw] mb-3">
                     connexion
@@ -129,7 +142,7 @@ const Navbar = () => {
                     inscription
                   </button>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           {/* )} */}
