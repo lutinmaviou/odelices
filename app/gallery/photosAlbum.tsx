@@ -107,6 +107,12 @@ const photo = [
     width: 600,
     height: 450,
   },
+  {
+    src: '/assets/img/courgettes.jpg',
+    alt: 'Entrée printanière',
+    width: 600,
+    height: 800,
+  },
 ];
 
 const PhotosAlbum = () => {
